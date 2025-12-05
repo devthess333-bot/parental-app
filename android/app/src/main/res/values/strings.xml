@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Call Recorder Test</string>
+    <string name="notification_channel_name">Call Recording</string>
+    <string name="notification_channel_description">Background call recording service</string>
+    <string name="notification_title">Call Monitoring Active</string>
+    <string name="notification_text">Recording calls in background</string>
+    <string name="accessibility_service_description">Detects phone calls for recording</string>
+</resources>

@@ -1,0 +1,9 @@
+# Allow CORS for testing
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type"
+
+# Increase upload limits for audio files
+php_value upload_max_filesize 50M
+php_value post_max_size 55M
+php_value max_execution_time 300
